@@ -1,4 +1,6 @@
 JoosyBlog::Application.routes.draw do
+  match 'blog' => 'blog#index'
+
   resources :comments
 
   resources :posts
