@@ -19,7 +19,8 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'anjlab-bootstrap-rails', '>= 2.1', :require => 'bootstrap-rails'
+  gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
+                              :git => 'git://github.com/anjlab/bootstrap-rails.git'
   gem 'font-awesome-sass-rails'
 end
 
